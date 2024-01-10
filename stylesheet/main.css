@@ -1,0 +1,48 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 0px 0px 50px;
+    row-gap: 16px;
+    column-gap: 8px;
+}
+
+.thumbnail {
+    width: 310px;
+}
+
+.potrait {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start ;
+}
+
+.info-text {
+    margin-left: 14px;
+}
+
+.info-description {
+    width: 250px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.youtuber {
+    margin-bottom: 4px;
+    margin-top: 2px;
+    color: gray;
+}
+
+.video-stats {
+    margin-top: 0;
+    color: gray;
+}
+
+.video-info {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+}
