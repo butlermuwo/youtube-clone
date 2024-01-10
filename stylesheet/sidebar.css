@@ -1,0 +1,13 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.side-icons {
+    margin-bottom: 45px;
+}
