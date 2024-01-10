@@ -1,0 +1,104 @@
+.header-section {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: -118px;
+    margin-left: -126px;
+    /* left: 0;
+    right: 0;
+    top: 0; */
+    border-bottom: #f8f8f8;
+    /* z-index: 100px; */
+}
+
+.right-header {
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-logo {
+    width: 90px;
+    height: 20px;
+}
+
+.input-box {
+    width: 358px;
+    border-radius: 2px;
+    border: 1px solid rgb(207, 203, 203);
+}
+
+.search-logo {
+    width: 24px;
+}
+
+.search-btn {
+    width: 64px;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(207, 203, 203);
+    cursor: pointer;
+    margin-left: -1px;
+}
+
+.voice-btn {
+    width: 40px;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.input-box::placeholder {
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+
+.voice-logo {
+    width: 24px;
+    /* margin-left: 25px;
+    background-color: #f8f8f8;
+    border-radius: 20px; */
+    /* background-color: #F8F8F8;
+    border-radius: 12px;
+    margin-left: 10px; */
+}
+
+.logos {
+    width: 80px;
+}
+
+.upload-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 0px 0px;
+}
+
+.apps-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 0px 0px;
+}
+
+.notif-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 0px 0px;
+}
+
+.channel-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 0px 24px 0px 0px;
+}
+.middle-header {
+    /* margin-top: 0;
+    padding-top: 0; */
+
+    display: flex;
+    justify-content: center;
+}
